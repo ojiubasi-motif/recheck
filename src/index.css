@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --header-height:3.5rem;
+  --bg-color-dark:#0A092D;
+  --bg-color-white:#F6F7FB;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: var(--bg-color-dark);
+}
